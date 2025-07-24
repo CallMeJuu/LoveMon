@@ -7,7 +7,7 @@ function love.load()
     love.graphics.setDefaultFilter("nearest", "nearest") -- Set the default filter for pixel art
     requireAll()
 
-    loadMap("world", "house")
+    loadMap("hospital", "world")
 
 end
 
@@ -25,5 +25,4 @@ function love.keypressed(key)
     if key == 'escape' or key == 'backspace' then
         love.event.quit() -- Exit the game when escape or backspace is pressed
     end
-
 end
