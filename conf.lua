@@ -1,4 +1,4 @@
-local settings = require("src.settings")
+local settings = require("src/settings")
 
 function love.conf(t)
     t.title = "LoveMon"        -- The title of the window
