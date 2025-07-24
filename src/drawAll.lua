@@ -1,5 +1,8 @@
-function drawAll()
+player = require('src/entities/player')
+
+function drawCamera()
     drawMapLayers()
+    player:draw()
 end
 
 function drawMapLayers()

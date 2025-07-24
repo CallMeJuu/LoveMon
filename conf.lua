@@ -7,4 +7,5 @@ function love.conf(t)
     t.window.resizable = true           -- Allow the window to be resizable
     t.window.fullscreen = false          -- Start in windowed mode
     t.window.vsync = true                -- Enable vertical sync
+    t.console = true
 end
