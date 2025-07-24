@@ -26,7 +26,4 @@ function love.keypressed(key)
         love.event.quit() -- Exit the game when escape or backspace is pressed
     end
 
-    if player then
-        player:keypressed(key)
-    end
 end
